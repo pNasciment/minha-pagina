@@ -1,0 +1,75 @@
+body {
+  width: 95%;
+  background: url(background.jpg) center;
+
+
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+
+main {
+  background: #0000007a;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.foto img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: thin solid;
+  padding: 5px;
+}
+
+.nome, .curso, .centro{
+  margin: 0;
+  text-align: center;
+}
+
+.cadeiras {
+  margin: 30px 0;
+  text-align: center;
+}
+.cadeiras table {
+  background: #ffffff47;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.links{
+  margin: 30px 0;
+  text-align: center;
+}
+
+.btn{
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-grey{
+  background: grey;
+  color: #fff;
+  box-shadow: 0 5px 0 #585757;
+}
+.btn-grey:hover{
+  background: #585757;
+  color: #fff;
+  box-shadow: 0 5px 0 #444444;
+}
+.btn-grey:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
